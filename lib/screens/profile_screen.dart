@@ -18,7 +18,7 @@ class ProfileScreen extends StatelessWidget {
                 const CircleAvatar(
                   radius: 50,
                   backgroundColor: Color(0xFFD6EAD2),
-                  child: Text('ЮМ', style: TextStyle(fontSize: 32, color: Color(0xFF235D27), fontWeight: FontWeight.bold)),
+                  child: Text('О', style: TextStyle(fontSize: 32, color: Color(0xFF235D27), fontWeight: FontWeight.bold)),
                 ),
                 Positioned(
                   bottom: 0,
@@ -40,8 +40,8 @@ class ProfileScreen extends StatelessWidget {
             ),
           ),
           const SizedBox(height: 16),
-          const Center(child: Text('Юрій Мандзій', style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold))),
-          const Center(child: Text('yuriy.mandziy@lpnu.ua', style: TextStyle(color: Colors.grey))),
+          const Center(child: Text('Олена', style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold))),
+          const Center(child: Text('olena3458@gmail.com', style: TextStyle(color: Colors.grey))),
           const SizedBox(height: 28),
 
           const Text('Особисті дані (FR7)', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
