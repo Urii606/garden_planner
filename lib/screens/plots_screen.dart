@@ -69,7 +69,7 @@ class PlotsScreen extends StatelessWidget {
               borderRadius: BorderRadius.circular(16),
             ),
             child: ListTile(
-              padding: const EdgeInsets.all(12),
+              contentPadding: const EdgeInsets.all(12),
               leading: Container(
                 padding: const EdgeInsets.all(10),
                 decoration: BoxDecoration(
